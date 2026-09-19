@@ -8,6 +8,7 @@ namespace SaudadeNichtswurdig
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        public static double DeltaTime { get; private set; }
 
         public Game1()
         {
@@ -34,7 +35,7 @@ namespace SaudadeNichtswurdig
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
+            DeltaTime = gameTime.ElapsedGameTime.TotalSeconds;
             // TODO: Add your update logic here
 
             base.Update(gameTime);

@@ -25,6 +25,18 @@ namespace SaudadeNichtswurdig
         /// The object's x position (based on their top left corner)
         /// </summary>
         public int X { get => box.X; set => box.X = value; }
+        /// <summary>
+        /// The y-position of the object (the top left corner)
+        /// </summary>
+        public int Y { get => box.Y; set => box.Y = value; }
+        /// <summary>
+        /// The width of the object
+        /// </summary>
+        public int Width { get => box.Width; set => box.Width = value; }
+        /// <summary>
+        /// The height of the object
+        /// </summary>
+        public int Height { get => box.Height; set => box.Height = value; }
 
         /// <summary>
         /// Creates a GameObject with the most basic information filled out
@@ -57,5 +69,16 @@ namespace SaudadeNichtswurdig
         }
 
         public abstract void Update(GameTime gameTime);
+
+        /// <summary>
+        /// Checks if this GameObject is colliding/intersecting with another Rectangle
+        /// </summary>
+        /// <param name="other">Other hitbox being checked</param>
+        /// <returns></returns>
+        public virtual bool CheckCollision(Rectangle other)
+        {
+            if (this.box.Intersects(other)) { return true; }
+            return false;
+        }
     }
 }
