@@ -4,24 +4,32 @@ using Microsoft.Xna.Framework.Input;
 
 namespace SaudadeNichtswurdig
 {
+    public enum GameState
+    {
+        Menu,
+        End
+    }
+
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         public static double DeltaTime { get; private set; }
+        public GameState State { get; private set; }
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            State = GameState.Menu;
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
             _graphics.PreferredBackBufferWidth = 1280;
-            _graphics.PreferredBackBufferHeight = 720;
+            _graphics.PreferredBackBufferHeight = 720; 
             _graphics.ApplyChanges();
             base.Initialize();
         }
