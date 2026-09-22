@@ -21,7 +21,11 @@ namespace SaudadeNichtswurdig
         }
         public override void Update(GameTime gameTime)
         {
-            KeyboardState input = Keyboard.GetState(); 
+             
+        }
+        public override void Draw(SpriteBatch sb)
+        {
+
         }
     }
 }

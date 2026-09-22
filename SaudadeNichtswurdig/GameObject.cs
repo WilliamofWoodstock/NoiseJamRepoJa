@@ -1,11 +1,5 @@
-﻿using System;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SaudadeNichtswurdig
 {
@@ -70,6 +64,12 @@ namespace SaudadeNichtswurdig
 
         public abstract void Update(GameTime gameTime);
 
+        public virtual void Draw(SpriteBatch sb)
+        {
+            
+            sb.Draw(texture, box, Color.White);
+        }
+
         /// <summary>
         /// Checks if this GameObject is colliding/intersecting with another Rectangle
         /// </summary>
@@ -77,7 +77,7 @@ namespace SaudadeNichtswurdig
         /// <returns></returns>
         public virtual bool CheckCollision(Rectangle other)
         {
-            if (this.box.Intersects(other)) { return true; }
+            if (box.Intersects(other)) { return true; }
             return false;
         }
     }
