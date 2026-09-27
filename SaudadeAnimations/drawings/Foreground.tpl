@@ -8,16 +8,10 @@
       color_0 3 255 255 255 0 
     </style>
     <style>
-      color_1 3 194 136 91 255 
+      color_1 3 0 0 0 255 
     </style>
     <style>
-      color_2 3 60 166 63 255 
-    </style>
-    <style>
-      color_3 3 0 0 0 255 
-    </style>
-    <style>
-      color_4 3 28 201 217 255 
+      color_2 3 255 255 255 255 
     </style>
     </styles>
   <stylepages>
@@ -26,12 +20,12 @@
         colors 
       </name>
       <indices>
-        0 1 2 3 4 
+        0 1 2 
       </indices>
       </page>
     </stylepages>
   <shortcuts>
-    -1 0 1 2 3 4 -1 -1 -1 -1 
+    -1 0 1 2 -1 -1 -1 -1 -1 -1 
   </shortcuts>
   
 </palette>
