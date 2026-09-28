@@ -1,4 +1,4 @@
-<tnz framecount="1" version="71.1">
+<tnz framecount="49" version="71.1">
   <generator>
     "Tahoma2D 1.6.3"
   </generator>
@@ -423,6 +423,78 @@
           <cell>
             0 1 <level id='2'/>0001 0 
           </cell>
+          <cell>
+            2 1 <level id='2'/>0002 0 
+          </cell>
+          <cell>
+            4 1 <level id='2'/>0003 0 
+          </cell>
+          <cell>
+            6 1 <level id='2'/>0004 0 
+          </cell>
+          <cell>
+            8 1 <level id='2'/>0005 0 
+          </cell>
+          <cell>
+            10 1 <level id='2'/>0006 0 
+          </cell>
+          <cell>
+            12 1 <level id='2'/>0007 0 
+          </cell>
+          <cell>
+            14 1 <level id='2'/>0008 0 
+          </cell>
+          <cell>
+            16 1 <level id='2'/>0009 0 
+          </cell>
+          <cell>
+            18 1 <level id='2'/>0010 0 
+          </cell>
+          <cell>
+            20 1 <level id='2'/>0011 0 
+          </cell>
+          <cell>
+            22 1 <level id='2'/>0012 0 
+          </cell>
+          <cell>
+            24 1 <level id='2'/>0013 0 
+          </cell>
+          <cell>
+            26 1 <level id='2'/>0014 0 
+          </cell>
+          <cell>
+            28 1 <level id='2'/>0015 0 
+          </cell>
+          <cell>
+            30 1 <level id='2'/>0016 0 
+          </cell>
+          <cell>
+            32 1 <level id='2'/>0017 0 
+          </cell>
+          <cell>
+            34 1 <level id='2'/>0018 0 
+          </cell>
+          <cell>
+            36 1 <level id='2'/>0019 0 
+          </cell>
+          <cell>
+            38 1 <level id='2'/>0020 0 
+          </cell>
+          <cell>
+            40 1 <level id='2'/>0021 0 
+          </cell>
+          <cell>
+            42 1 <level id='2'/>0022 0 
+          </cell>
+          <cell>
+            44 1 <level id='2'/>0023 0 
+          </cell>
+          <cell>
+            46 1 <level id='2'/>0024 0 
+          </cell>
+          <cell>
+            48 1 <level id='2'/>0025 0 
+          </cell>
           </cells>
         <fx>
           <Toonz_columnFx id='6'>
@@ -464,21 +536,128 @@
         <status>
           0 
         </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                -1.29652 
+              </prev>
+              12 -1.29652 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              12 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
         <sx>
           <default>
             1 
           </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
           </sx>
         <sy>
           <default>
             1 
           </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
           </sy>
         <sc>
           <default>
             1 
           </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
           </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
         <nodePos>
           1.234e+09 5.678e+09 
         </nodePos>
@@ -698,10 +877,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='4'/>
+          <Toonz_columnFx id='6'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='6'/>
+          <Toonz_columnFx id='4'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -741,7 +920,7 @@
             0 
           </numberId>
           <name>
-            Output 
+            OutputFx 
           </name>
           <fxId>
             "" 
@@ -761,6 +940,7 @@
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   21 Sep 26   16:13   GOL2025-16  wdy2641         |"
-    "| #2   26 Sep 26   21:56   GOL2025-30  wdy2641         |"
+    "| #2   26 Sep 26   22:04   GOL2025-30  wdy2641         |"
+    "| #3   27 Sep 26   22:47   GOL2025-29  wdy2641         |"
   </history>
   </tnz>
