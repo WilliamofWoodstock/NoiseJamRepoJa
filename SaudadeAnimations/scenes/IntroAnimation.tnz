@@ -1,4 +1,4 @@
-<tnz framecount="49" version="71.1">
+<tnz framecount="78" version="71.1">
   <generator>
     "Tahoma2D 1.6.3"
   </generator>
@@ -371,7 +371,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='2'/>
+        <level id='2'/><level id='1'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -494,6 +494,30 @@
           </cell>
           <cell>
             48 1 <level id='2'/>0025 0 
+          </cell>
+          <cell>
+            50 1 <level id='2'/>0026 0 
+          </cell>
+          <cell>
+            52 1 <level id='2'/>0027 0 
+          </cell>
+          <cell>
+            54 1 <level id='2'/>0028 0 
+          </cell>
+          <cell>
+            56 1 <level id='2'/>0029 0 
+          </cell>
+          <cell>
+            58 1 <level id='2'/>0030 0 
+          </cell>
+          <cell>
+            60 5 <level id='2'/>0031 1 
+          </cell>
+          <cell>
+            71 1 <level id='2'/>0036 0 
+          </cell>
+          <cell>
+            77 1 <level id='2'/>0037 0 
           </cell>
           </cells>
         <fx>
@@ -877,10 +901,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='6'/>
+          <Toonz_columnFx id='4'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='4'/>
+          <Toonz_columnFx id='6'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -943,5 +967,6 @@
     "| #2   26 Sep 26   22:04   GOL2025-30  wdy2641         |"
     "| #3   27 Sep 26   22:48   GOL2025-29  wdy2641         |"
     "| #4   28 Sep 26   01:03   MSS2175-20  wdy2641         |"
+    "| #5   29 Sep 26   01:08   MSS2175-17  wdy2641         |"
   </history>
   </tnz>
